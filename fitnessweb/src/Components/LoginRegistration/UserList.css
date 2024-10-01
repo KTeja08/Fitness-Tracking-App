@@ -1,0 +1,54 @@
+.user-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(249, 249, 249, 0.8);  
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 50px;
+    
+}
+
+.user-list h1 {
+    text-align: center;
+    color: #32a343;
+    background-color: white;
+}
+
+.user-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-list li {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    background-color: rgba(235, 225, 225, 0.8); /* Slight transparency for better text readability */
+    transition: background-color 0.2s ease;
+}
+
+.user-list li:hover {
+    background-color: rgba(228, 211, 211, 0.8);
+}
+
+.user-list p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.user-list button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #42ce50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.user-list button:hover {
+    background-color: #00b31b;
+}

@@ -1,0 +1,74 @@
+.goal-list {
+    background-color: #eadfdf;
+    padding: 15px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 10px auto; 
+    margin-left: 730px;
+    margin-top: -460px;
+}
+
+.goal-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.goal-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.goal-list li {
+    background: #fcfbfb;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.goal-list li:hover {
+    background-color: #cabfbf;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+.goal-list li p {
+    margin: 5px 0;
+}
+
+.goal-list li p span {
+    font-weight: bold;
+    color: #555;
+}
+
+.goal-list p {
+    color: #666;
+}
+
+.goal-list .no-goals {
+    text-align: center;
+    font-style: italic;
+    color: #999;
+}
+
+.goal-list button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.goal-list button:hover {
+    background-color: #0f7613;
+}
+
+.update-form-container {
+    max-width: 600px; /* Adjust this value to match the width of your ActivityForm */
+    margin: 180px auto; /* Center the container horizontally */
+    padding: 20px;
+    
+}

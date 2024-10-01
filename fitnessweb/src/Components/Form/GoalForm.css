@@ -1,0 +1,73 @@
+.goal-list {
+    background-color: #eadfdf;
+    padding: 15px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 20px auto; /* Adjusted margins */
+    clear: both; /* Clear floats if any */
+}
+
+.goal-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.goal-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.goal-list li {
+    background: #fcfbfb;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px; /* Adjust padding for better spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.goal-list li:hover {
+    background-color: #cabfbf;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+.goal-list li p {
+    margin: 5px 0;
+}
+
+.goal-list li p span {
+    font-weight: bold;
+    color: #555;
+}
+
+.goal-list p {
+    color: #666;
+}
+
+.goal-list .no-goals {
+    text-align: center;
+    font-style: italic;
+    color: #999;
+}
+
+textarea {
+    width: 100%; /* Full width of its parent container */
+    height: 100px; /* Set a default height */
+    padding: 10px; /* Padding inside the textarea */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    font-family: Arial, sans-serif; /* Font family */
+    resize: vertical; /* Allow vertical resizing */
+    box-sizing: border-box; /* Include padding and border in element's width and height */
+}
+
+/* Focused state style */
+textarea:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.3); /* Slight shadow on focus */
+}

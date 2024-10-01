@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.home {
+  height: 100vh; /* Set the container to the full viewport height */
+}
+
+.slide-container {
+  height: 100%; /* Ensure the slideshow container takes up full height */
+}
+
+.each-slide {
+  height: 100vh; /* Each slide should also cover the full viewport height */
+  position: relative; /* Position relative for absolute positioning of buttons */
+}
+
+.slide-image {
+  height: 90%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+.slide-button {
+  background-color: #007bff; /* Button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.slide-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}

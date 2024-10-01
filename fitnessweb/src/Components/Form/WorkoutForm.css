@@ -1,0 +1,49 @@
+
+/* src/components/Form/WorkoutForm.css */
+.workout-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e1d6d6;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.workout-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #13a535;
+}
+
+.workout-form .form-group {
+  margin-bottom: 16px;
+}
+
+.workout-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.workout-form select,
+.workout-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.workout-form button {
+  width: 100%;
+  background-color: #2abb49;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.workout-form button:hover {
+  background-color: #15c624;
+}

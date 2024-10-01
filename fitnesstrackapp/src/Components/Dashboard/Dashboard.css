@@ -1,0 +1,50 @@
+.dashboard {
+    padding: 20px;
+    background-color: #f1e4ed;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+}
+
+.card-title-box {
+    border: 2px solid #15ff00;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #bcefd0;
+    text-align: center;
+    color: #007bff;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+.card-title-box .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-title-box .card-text {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #343a40; 
+}
+.bar-chart{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.line-charts{
+    margin-top: 70px;
+}
+
+line .line-charts .line-box{
+    margin-top: 70px;
+}

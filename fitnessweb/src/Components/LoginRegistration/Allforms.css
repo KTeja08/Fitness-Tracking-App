@@ -1,0 +1,190 @@
+.background {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    
+  }
+  
+  .h1{
+    margin-right: 20px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 600px; 
+    padding: 10px; 
+   
+
+
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 10px; /* Increase space between label and input */
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 15px; /* Increase padding inside the input fields */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px; /* Increase font size for better readability */
+  }
+  
+  .submit-btn {
+    background-color: #19a823;
+    color: #fff;
+    border: none;
+    padding: 15px 20px; /* Increase padding on the button */
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px; /* Increase font size of the button text */
+    
+  }
+  
+  .submit-btn:hover {
+    background-color: #34b10e;
+  }
+  
+  .login-form {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 200px;
+    
+}
+
+.login-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 350px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px; /* Adds space between inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px; /* Adds space between login button and Forgot Password */
+}
+
+.login-form button:hover {
+  background-color: #218838;
+}
+
+.forgot-password-link {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 0;
+    margin-top: 10px; /* Adds space above the Forgot Password button */
+}
+
+.forgot-password-link:hover {
+    text-decoration: none;
+}
+
+.reset-password-form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+ margin-left: 300px;
+}
+
+.reset-password-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 600px;
+}
+
+.reset-password-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.reset-password-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px; /* Add space between inputs */
+}
+
+.reset-password-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #068a2e;
+  color: white;
+ 
+}
+
+.reset-password-form button:hover {
+  background-color: #0a7734;
+}
+
+.forget-password-form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-left: 200px;
+ 
+}
+
+.forget-password-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 530px;
+}
+
+.forget-password-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.forget-password-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px; /* Space between input and button */
+  
+}
+
+.forget-password-form button {
+  width: 100%;
+  padding: 10px;
+  
+  margin-top: 20px; /* Add space between the input field and button */
+}
+
+.forget-password-form button:hover {
+  background-color: #00b315;
+}
